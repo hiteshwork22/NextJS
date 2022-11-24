@@ -1,5 +1,5 @@
-import {Box, Container, Divider} from "@mui/material";
-// import {MailOutlineOutlined} from '@material-ui/icons';
+import React from 'react';
+import {Box, Divider} from "@mui/material";
 import Header from "../components/Header";
 import HomeLayout from "../Layouts/HomePage";
 
@@ -8,7 +8,6 @@ export default function Home() {
         <Box className='p-4'>
             <Box className='mb-4'>
                 <Header
-                    // icon={<MailOutlineOutlined/>}
                     title='Message'
                     btnValue='+ New Message'
                 />
