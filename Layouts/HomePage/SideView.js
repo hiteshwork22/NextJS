@@ -110,7 +110,7 @@ const SideView = () => {
                                 <Box className='flex' sx={{flexDirection: 'column'}}>
                                     <Typography>
                                         <span className='font-medium' style={{fontWeight: 700}}>{`${item.userName}`}</span>
-                                        <span
+                                        <span className="text-sm"
                                             style={{
                                                 paddingLeft: '10px',
                                                 fontSize: '14px',
